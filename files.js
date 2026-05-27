@@ -12,9 +12,9 @@ const fs = require("fs");
 // fs.writeFile("./docs/blog1.txt", "Hello, call me SUGIRA", () => {
 //   console.log("Text was written!");
 // });
-// fs.writeFile("./docs/blog2.txt", "Hello, call me NGENDAHAYO", () => {
-//   console.log("Text was written!");
-// });
+fs.writeFile("./docs/blog5.txt", "Hello, call me NGENDAHAYO", () => {
+  console.log("Text was written!");
+});
 
 // Directories
 // if (!fs.existsSync("./assets")) {
@@ -34,10 +34,10 @@ const fs = require("fs");
 // }
 
 //Delete files
-if (fs.existsSync("./docs/deleteme.txt")) {
-  fs.unlink("./docs/deleteme.txt", (err) => {
-    if (err) console.log(err);
-    console.log("File deleted succesfully!")
-  });
+// if (fs.existsSync("./docs/deleteme.txt")) {
+//   fs.unlink("./docs/deleteme.txt", (err) => {
+//     if (err) console.log(err);
+//     console.log("File deleted succesfully!")
+//   });
   
-}
+// }
