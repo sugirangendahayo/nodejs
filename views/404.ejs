@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="site-title">
-        <a href="/">Blog ninja</a>
-        <p>Net ninja site</p>
-    </div>
-    <ul>
-        <li><a href="/">Blogs</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blogs/create">New Blog</a></li>
-    </ul>
+    <%- include("./partials/head") %>
+  <body>
+    <%- include("./partials/nav") %>
     <div class="not-found content">
-        <h2>Oops - Page not found!</h2>
+      <h2>Oops - Page not found!</h2>
     </div>
-</body>
+    <%- include("./partials/footer") %>
+  </body>
 </html>
